@@ -1,0 +1,103 @@
+/* Add this CSS to your component's CSS file or a separate stylesheet */
+
+/* Container styles */
+.todo-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #e75252;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styles */
+.todo-app h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Input and button container styles */
+.todo-input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.todo-input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Add button styles */
+.todo-input-container button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-input-container button:hover {
+  background: #0056b3;
+}
+
+/* Tasks list styles */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox styles */
+.todo-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Remove button styles */
+.todo-list button {
+  background: #ff5555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-list button:hover {
+  background: #d80000;
+}
+
+/* Completed tasks section styles */
+.completed-tasks {
+  margin-top: 20px;
+}
+
+.completed-tasks h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-complete{
+  background-color: rgb(42, 174, 42);
+  color: #ffffff;
+  border-radius: 5px;
+  width: 180px;
+  height: 30px;
+}
